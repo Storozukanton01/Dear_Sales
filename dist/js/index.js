@@ -7,7 +7,7 @@ var daggers = document.querySelectorAll('.questions__x'); // Show clicked conten
 
 active = function active(item, index) {
   contents.forEach(function (content, i) {
-    if (i == index) {
+    if (i !== index) {
       content.style.height = 0; // Add 'active' class to clicked element
 
       removeClass(accordions[i], contents[i], 'active');
@@ -16,9 +16,14 @@ active = function active(item, index) {
   });
   item.style.height = "".concat(item.scrollHeight, "px"); //Spin daggers
 
-  dagger.forEach(function (dagger, i) {
-    dagger.style.transform = 'rotate(145deg)';
-    if (i !== index) dagger.style.transform = 'rotate(45deg)';
+  daggers.forEach(function (dagger, i) {
+    // dagger.style.transform = 'rotate(45deg)';
+    dagger.classList.add('filled');
+
+    if (i !== index) {
+      // dagger.style.transform = 'rotate(0deg)';
+      dagger.classList.remove('filled');
+    }
   });
 }; // Add function to all accordion element buttons
 
