@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="/dist/libs/normalize.css">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="dist/css/index.css">
+    <meta name="format-detection" content="telephone=no">
+    <meta http-equiv="x-rim-auto-match" content="none">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    <title>Test work</title>
+</head>
+<body> 
+    <header class="header">
+        <div class="header__top">
+            <div class="header__holder_top">
+                <div class="header__left">
+                    <img src="dist/images/mail.svg" alt="mail-icon">
+                    <a href="#">support@dearsystems.com</a>
+                </div>
+                <div class="header__right">
+                    <div class="header__phone">
+                        <img src="dist/images/phone.svg" alt="phone-icon" >
+                        <a href="#">Book a Call</a>
+                    </div>
+                    <div class="header__search">
+                        <img src="dist/images/search.svg" alt="search-icon" class="search-icon">
+                        <a href="#">Search</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header__down">
+            <div class="header__holder_down">
+                <div class="header__burger">
+                    <div class="arrow"></div>
+                    <div class="arrow"></div>
+                    <div class="arrow"></div>
+                </div>
+                <a class="header__logo" href="/">
+                    <img src="/dist/images/logo.svg" alt="">
+                </a>
+                <nav role="navigation">
+                    <ul class='header__menu'>
+                        <li><a href="#">Features</a></li>
+                        <li><a href="#">Industries</a></li>
+                        <li><a href="#">Integrations</a></li>
+                        <li><a href="#">Pricing</a></li>
+                        <li><a href="#">Customer Stories</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                    </ul>
+                </nav>
+                <i class="header__search-icon">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M19.7753 18.6511L16.8091 15.7067C17.9605 14.2699 18.5181 12.4464 18.3672 10.6109C18.2164 8.77535 17.3685 7.06745 15.998 5.83834C14.6275 4.60923 12.8385 3.95232 10.9989 4.0027C9.15928 4.05307 7.40887 4.8069 6.10758 6.10918C4.80629 7.41146 4.05303 9.1632 4.0027 11.0042C3.95236 12.8452 4.60876 14.6356 5.83694 16.0071C7.06512 17.3787 8.77172 18.2272 10.6058 18.3781C12.4399 18.5291 14.2621 17.9711 15.6978 16.8188L18.64 19.7633C18.7143 19.8383 18.8028 19.8978 18.9002 19.9385C18.9976 19.9791 19.1021 20 19.2077 20C19.3132 20 19.4177 19.9791 19.5152 19.9385C19.6126 19.8978 19.701 19.8383 19.7753 19.7633C19.9194 19.6141 20 19.4147 20 19.2072C20 18.9997 19.9194 18.8003 19.7753 18.6511ZM11.2124 16.8188C10.1055 16.8188 9.02346 16.4903 8.10309 15.8749C7.18272 15.2595 6.46538 14.3847 6.04178 13.3613C5.61818 12.3379 5.50735 11.2117 5.7233 10.1252C5.93925 9.03875 6.47228 8.04076 7.25499 7.25746C8.0377 6.47416 9.03493 5.94072 10.1206 5.72461C11.2062 5.50849 12.3315 5.61941 13.3542 6.04333C14.3768 6.46725 15.2509 7.18514 15.8659 8.1062C16.4809 9.02727 16.8091 10.1102 16.8091 11.2179C16.8091 12.7034 16.2195 14.128 15.1699 15.1784C14.1203 16.2287 12.6968 16.8188 11.2124 16.8188Z" fill="#3B3B3B"/>
+                    </svg>
+                </i>
+                <div class="header__down__button">
+                    <a href="#" class="header__down__button--1">Log In</a>
+                    <a href="#" class="header__down__button--2">Get Free 14 Days Access</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="page">
+        <section class="banner">
+            <div class="banner__holder">
+                <div class="banner__sales">
+                    <i>
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M11.1749 4.5752L18.5991 5.63645L19.6596 13.0614L12.7656 19.9554C12.625 20.0961 12.4343 20.175 12.2354 20.175C12.0365 20.175 11.8458 20.0961 11.7051 19.9554L4.28014 12.5304C4.13953 12.3898 4.06055 12.1991 4.06055 12.0002C4.06055 11.8013 4.13953 11.6106 4.28014 11.4699L11.1749 4.5752ZM13.2959 10.9397C13.4352 11.079 13.6006 11.1894 13.7826 11.2648C13.9646 11.3401 14.1597 11.3789 14.3567 11.3789C14.5536 11.3788 14.7487 11.34 14.9307 11.2646C15.1127 11.1892 15.278 11.0786 15.4173 10.9393C15.5565 10.8 15.667 10.6346 15.7423 10.4526C15.8177 10.2706 15.8565 10.0755 15.8564 9.87856C15.8564 9.68157 15.8176 9.48652 15.7421 9.30454C15.6667 9.12256 15.5562 8.95721 15.4169 8.81795C15.2776 8.67868 15.1122 8.56822 14.9302 8.49286C14.7482 8.41751 14.5531 8.37875 14.3561 8.37878C13.9583 8.37885 13.5768 8.53696 13.2955 8.81832C13.0142 9.09968 12.8563 9.48125 12.8563 9.87909C12.8564 10.2769 13.0145 10.6584 13.2959 10.9397Z" fill="#FFB48E"/>
+                        </svg>                            
+                    </i>
+                    <span>Sales</span>
+                </div>
+                <div class="banner__textHolder">
+                    <h1><span>Streamline sales</span><br>for smooth operations.</h1>
+                    <p>Consolidate all the features you need to manage sales across multiple channels into one platform with order management software.</p>
+                </div>
+                <div class="banner__buttonsHolder">
+                    <button class="banner__buttonsHolder--1">
+                        <span>Get Consultation</span>
+                    </button>
+                    <button class="banner__buttonsHolder--2">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect x="4" y="4" width="16" height="16" rx="8" fill="#FFB48E"/>
+                            <path d="M15.3047 12.2062L9.97412 15.7085C9.93626 15.7333 9.89226 15.7476 9.84683 15.7497C9.80139 15.7519 9.75622 15.7418 9.71612 15.7207C9.67602 15.6995 9.64249 15.668 9.61911 15.6296C9.59573 15.5911 9.58337 15.5471 9.58334 15.5023V8.4977C9.58337 8.45287 9.59573 8.40889 9.61911 8.37044C9.64249 8.33198 9.67602 8.3005 9.71612 8.27934C9.75622 8.25818 9.80139 8.24814 9.84683 8.25028C9.89226 8.25243 9.93626 8.26667 9.97412 8.29151L15.3047 11.7938C15.3392 11.8164 15.3674 11.8471 15.3869 11.8831C15.4065 11.919 15.4167 11.9592 15.4167 12C15.4167 12.0408 15.4065 12.081 15.3869 12.1169C15.3674 12.1529 15.3392 12.1836 15.3047 12.2062Z" fill="white"/>
+                        </svg>                            
+                        <span>Watch Demoreel</span>
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <section class="empower">
+            <div class="empower__holder">
+               <img src="dist/images/screen.png" alt="screen">
+               <h2>Empower your sales team with all the knowledge and tools they need.</h2>
+                <p>Seamless integrations with the rest of your order management software like your POS or order tracking help you elevate your sales process. And with full control over sales, you can rest easy knowing that your sales processes will run smoothly at every turn.</p>
+            </div>
+        </section>
+
+        <section class="integration">
+            <div class="integration__holder">
+                <div class="integration__icon">
+                    <img src="dist/images/integration.svg" alt="integration-icon">
+                </div>
+                <h2>We Integrated With</h2>
+                <p>Companies build their own workflows on their favorite solutions on the market which integrated with DEAR</p>
+                <div class="integration__list">
+                    <div class="integration__list_item">
+                        <a href="#">
+                            <img src="https://dearsystems.com/wp-content/uploads/2020/08/amazon.svg" alt="label">
+                        </a>
+                    </div>
+                    <div class="integration__list_item">
+                        <a href="#">
+                            <img src="https://dearsystems.com/wp-content/uploads/2020/08/pp.svg" alt="label">
+                        </a>
+                    </div>
+                    <div class="integration__list_item">
+                        <a href="#">
+                            <img src="https://dearsystems.com/wp-content/uploads/2020/08/ebay.svg" alt="label">
+                        </a>
+                    </div>
+                    <div class="integration__list_item">
+                        <a href="#">
+                            <img src="https://dearsystems.com/wp-content/uploads/2020/08/stripe.svg" alt="label">
+                        </a>
+                    </div>
+                    <div class="integration__list_item">
+                        <a href="#">
+                            <img src="https://dearsystems.com/wp-content/uploads/2020/08/square.svg" alt="label">
+                        </a>
+                    </div>
+                    <div class="integration__list_item">
+                        <a href="#">
+                            <img src="https://dearsystems.com/wp-content/uploads/2020/08/xero.svg" alt="label">
+                        </a>
+                    </div>
+                    <div class="integration__list_item">
+                        <a href="#">
+                            <img src="https://dearsystems.com/wp-content/uploads/2020/08/zapier.svg" alt="label">
+                        </a>
+                    </div>
+                    <div class="integration__list_item">
+                        <a href="#">
+                            <img src="https://dearsystems.com/wp-content/uploads/2020/08/shopify.svg" alt="label">
+                        </a>
+                    </div>
+                    <div class="integration__list_item">
+                        <a href="#">
+                            <img src="https://dearsystems.com/wp-content/uploads/2020/08/qb.svg" alt="label">
+                        </a>
+                    </div>
+                    <div class="integration__list_item">
+                        <a href="#">
+                            <img src="https://dearsystems.com/wp-content/uploads/2020/08/hubSpot.svg" alt="label">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="questions">
+            <div class="questions__holder">
+                <h2>Frequently Asked Questions</h2>
+            </div>
+            <div class="questions__list">
+                <button class="questions__accordion">What is the purpose of the Simple Sale module?
+                    <div><svg class="questions__x" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M22.2083 10.5416H13.4583V1.79165C13.4583 1.40487 13.3047 1.03394 13.0312 0.760449C12.7577 0.486959 12.3868 0.333313 12 0.333313C11.6132 0.333313 11.2423 0.486959 10.9688 0.760449C10.6953 1.03394 10.5416 1.40487 10.5416 1.79165V10.5416H1.79165C1.40487 10.5416 1.03394 10.6953 0.760449 10.9688C0.486959 11.2423 0.333313 11.6132 0.333313 12C0.333313 12.3868 0.486959 12.7577 0.760449 13.0312C1.03394 13.3047 1.40487 13.4583 1.79165 13.4583H10.5416V22.2083C10.5416 22.5951 10.6953 22.966 10.9688 23.2395C11.2423 23.513 11.6132 23.6666 12 23.6666C12.3868 23.6666 12.7577 23.513 13.0312 23.2395C13.3047 22.966 13.4583 22.5951 13.4583 22.2083V13.4583H22.2083C22.5951 13.4583 22.966 13.3047 23.2395 13.0312C23.513 12.7577 23.6666 12.3868 23.6666 12C23.6666 11.6132 23.513 11.2423 23.2395 10.9688C22.966 10.6953 22.5951 10.5416 22.2083 10.5416Z" fill="#B5B9C2"/>
+                    </svg></div>
+                </button>
+                <div class="questions__accordion_content">
+                    <p>Processing a sale is the main purpose of the Simple Sale module in DEAR. Through the Simple Sale module, you can create quotes, sale orders, sale invoices and track the shipping status of the sale order.</p>
+                </div>
+                <button class="questions__accordion">How do I manage my customers who are exceeding the credit limit?
+                    <div><svg class="questions__x" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M22.2083 10.5416H13.4583V1.79165C13.4583 1.40487 13.3047 1.03394 13.0312 0.760449C12.7577 0.486959 12.3868 0.333313 12 0.333313C11.6132 0.333313 11.2423 0.486959 10.9688 0.760449C10.6953 1.03394 10.5416 1.40487 10.5416 1.79165V10.5416H1.79165C1.40487 10.5416 1.03394 10.6953 0.760449 10.9688C0.486959 11.2423 0.333313 11.6132 0.333313 12C0.333313 12.3868 0.486959 12.7577 0.760449 13.0312C1.03394 13.3047 1.40487 13.4583 1.79165 13.4583H10.5416V22.2083C10.5416 22.5951 10.6953 22.966 10.9688 23.2395C11.2423 23.513 11.6132 23.6666 12 23.6666C12.3868 23.6666 12.7577 23.513 13.0312 23.2395C13.3047 22.966 13.4583 22.5951 13.4583 22.2083V13.4583H22.2083C22.5951 13.4583 22.966 13.3047 23.2395 13.0312C23.513 12.7577 23.6666 12.3868 23.6666 12C23.6666 11.6132 23.513 11.2423 23.2395 10.9688C22.966 10.6953 22.5951 10.5416 22.2083 10.5416Z" fill="#B5B9C2"/>
+                    </svg></div>
+                </button>
+                <div class="questions__accordion_content">
+                    <p>Processing a sale is the main purpose of the Simple Sale module in DEAR. Through the Simple Sale module, you can create quotes, sale orders, sale invoices and track the shipping status of the sale order.</p>
+                </div>
+                <button class="questions__accordion">Can I customize the documents before sending them to my customers?
+                    <div><svg class="questions__x" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M22.2083 10.5416H13.4583V1.79165C13.4583 1.40487 13.3047 1.03394 13.0312 0.760449C12.7577 0.486959 12.3868 0.333313 12 0.333313C11.6132 0.333313 11.2423 0.486959 10.9688 0.760449C10.6953 1.03394 10.5416 1.40487 10.5416 1.79165V10.5416H1.79165C1.40487 10.5416 1.03394 10.6953 0.760449 10.9688C0.486959 11.2423 0.333313 11.6132 0.333313 12C0.333313 12.3868 0.486959 12.7577 0.760449 13.0312C1.03394 13.3047 1.40487 13.4583 1.79165 13.4583H10.5416V22.2083C10.5416 22.5951 10.6953 22.966 10.9688 23.2395C11.2423 23.513 11.6132 23.6666 12 23.6666C12.3868 23.6666 12.7577 23.513 13.0312 23.2395C13.3047 22.966 13.4583 22.5951 13.4583 22.2083V13.4583H22.2083C22.5951 13.4583 22.966 13.3047 23.2395 13.0312C23.513 12.7577 23.6666 12.3868 23.6666 12C23.6666 11.6132 23.513 11.2423 23.2395 10.9688C22.966 10.6953 22.5951 10.5416 22.2083 10.5416Z" fill="#B5B9C2"/>
+                    </svg></div>
+                </button>
+                <div class="questions__accordion_content">
+                    <p>Processing a sale is the main purpose of the Simple Sale module in DEAR. Through the Simple Sale module, you can create quotes, sale orders, sale invoices and track the shipping status of the sale order.</p>
+                </div>
+                <button class="questions__accordion">Can I fulfill a sale order in parts and generate multiple invoices?
+                    <div><svg class="questions__x" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M22.2083 10.5416H13.4583V1.79165C13.4583 1.40487 13.3047 1.03394 13.0312 0.760449C12.7577 0.486959 12.3868 0.333313 12 0.333313C11.6132 0.333313 11.2423 0.486959 10.9688 0.760449C10.6953 1.03394 10.5416 1.40487 10.5416 1.79165V10.5416H1.79165C1.40487 10.5416 1.03394 10.6953 0.760449 10.9688C0.486959 11.2423 0.333313 11.6132 0.333313 12C0.333313 12.3868 0.486959 12.7577 0.760449 13.0312C1.03394 13.3047 1.40487 13.4583 1.79165 13.4583H10.5416V22.2083C10.5416 22.5951 10.6953 22.966 10.9688 23.2395C11.2423 23.513 11.6132 23.6666 12 23.6666C12.3868 23.6666 12.7577 23.513 13.0312 23.2395C13.3047 22.966 13.4583 22.5951 13.4583 22.2083V13.4583H22.2083C22.5951 13.4583 22.966 13.3047 23.2395 13.0312C23.513 12.7577 23.6666 12.3868 23.6666 12C23.6666 11.6132 23.513 11.2423 23.2395 10.9688C22.966 10.6953 22.5951 10.5416 22.2083 10.5416Z" fill="#B5B9C2"/>
+                    </svg></div>
+                </button>
+                <div class="questions__accordion_content">
+                    <p>Processing a sale is the main purpose of the Simple Sale module in DEAR. Through the Simple Sale module, you can create quotes, sale orders, sale invoices and track the shipping status of the sale order.</p>
+                </div>
+                <button class="questions__accordion">I sell services instead of physical stock, how can I manage this in DEAR?
+                    <div><svg class="questions__x" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M22.2083 10.5416H13.4583V1.79165C13.4583 1.40487 13.3047 1.03394 13.0312 0.760449C12.7577 0.486959 12.3868 0.333313 12 0.333313C11.6132 0.333313 11.2423 0.486959 10.9688 0.760449C10.6953 1.03394 10.5416 1.40487 10.5416 1.79165V10.5416H1.79165C1.40487 10.5416 1.03394 10.6953 0.760449 10.9688C0.486959 11.2423 0.333313 11.6132 0.333313 12C0.333313 12.3868 0.486959 12.7577 0.760449 13.0312C1.03394 13.3047 1.40487 13.4583 1.79165 13.4583H10.5416V22.2083C10.5416 22.5951 10.6953 22.966 10.9688 23.2395C11.2423 23.513 11.6132 23.6666 12 23.6666C12.3868 23.6666 12.7577 23.513 13.0312 23.2395C13.3047 22.966 13.4583 22.5951 13.4583 22.2083V13.4583H22.2083C22.5951 13.4583 22.966 13.3047 23.2395 13.0312C23.513 12.7577 23.6666 12.3868 23.6666 12C23.6666 11.6132 23.513 11.2423 23.2395 10.9688C22.966 10.6953 22.5951 10.5416 22.2083 10.5416Z" fill="#B5B9C2"/>
+                    </svg></div>
+                </button>
+                <div class="questions__accordion_content">
+                    <p>Processing a sale is the main purpose of the Simple Sale module in DEAR. Through the Simple Sale module, you can create quotes, sale orders, sale invoices and track the shipping status of the sale order.</p>
+                </div>
+                <button class="questions__accordion">Does DEAR support gift cards?
+                    <div><svg class="questions__x" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M22.2083 10.5416H13.4583V1.79165C13.4583 1.40487 13.3047 1.03394 13.0312 0.760449C12.7577 0.486959 12.3868 0.333313 12 0.333313C11.6132 0.333313 11.2423 0.486959 10.9688 0.760449C10.6953 1.03394 10.5416 1.40487 10.5416 1.79165V10.5416H1.79165C1.40487 10.5416 1.03394 10.6953 0.760449 10.9688C0.486959 11.2423 0.333313 11.6132 0.333313 12C0.333313 12.3868 0.486959 12.7577 0.760449 13.0312C1.03394 13.3047 1.40487 13.4583 1.79165 13.4583H10.5416V22.2083C10.5416 22.5951 10.6953 22.966 10.9688 23.2395C11.2423 23.513 11.6132 23.6666 12 23.6666C12.3868 23.6666 12.7577 23.513 13.0312 23.2395C13.3047 22.966 13.4583 22.5951 13.4583 22.2083V13.4583H22.2083C22.5951 13.4583 22.966 13.3047 23.2395 13.0312C23.513 12.7577 23.6666 12.3868 23.6666 12C23.6666 11.6132 23.513 11.2423 23.2395 10.9688C22.966 10.6953 22.5951 10.5416 22.2083 10.5416Z" fill="#B5B9C2"/>
+                    </svg></div>
+                </button>
+                <div class="questions__accordion_content">
+                    <p>Processing a sale is the main purpose of the Simple Sale module in DEAR. Through the Simple Sale module, you can create quotes, sale orders, sale invoices and track the shipping status of the sale order.</p>
+                </div>
+                <button class="questions__accordion">How can I manage warranties in DEAR?
+                    <div><svg class="questions__x" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M22.2083 10.5416H13.4583V1.79165C13.4583 1.40487 13.3047 1.03394 13.0312 0.760449C12.7577 0.486959 12.3868 0.333313 12 0.333313C11.6132 0.333313 11.2423 0.486959 10.9688 0.760449C10.6953 1.03394 10.5416 1.40487 10.5416 1.79165V10.5416H1.79165C1.40487 10.5416 1.03394 10.6953 0.760449 10.9688C0.486959 11.2423 0.333313 11.6132 0.333313 12C0.333313 12.3868 0.486959 12.7577 0.760449 13.0312C1.03394 13.3047 1.40487 13.4583 1.79165 13.4583H10.5416V22.2083C10.5416 22.5951 10.6953 22.966 10.9688 23.2395C11.2423 23.513 11.6132 23.6666 12 23.6666C12.3868 23.6666 12.7577 23.513 13.0312 23.2395C13.3047 22.966 13.4583 22.5951 13.4583 22.2083V13.4583H22.2083C22.5951 13.4583 22.966 13.3047 23.2395 13.0312C23.513 12.7577 23.6666 12.3868 23.6666 12C23.6666 11.6132 23.513 11.2423 23.2395 10.9688C22.966 10.6953 22.5951 10.5416 22.2083 10.5416Z" fill="#B5B9C2"/>
+                    </svg></div>
+                </button>
+                <div class="questions__accordion_content">
+                    <p>Processing a sale is the main purpose of the Simple Sale module in DEAR. Through the Simple Sale module, you can create quotes, sale orders, sale invoices and track the shipping status of the sale order.</p>
+                </div>
+                <button class="questions__accordion">How can I simplify the sale process for my customers who are bying on a regular basis?
+                    <div><svg class="questions__x" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M22.2083 10.5416H13.4583V1.79165C13.4583 1.40487 13.3047 1.03394 13.0312 0.760449C12.7577 0.486959 12.3868 0.333313 12 0.333313C11.6132 0.333313 11.2423 0.486959 10.9688 0.760449C10.6953 1.03394 10.5416 1.40487 10.5416 1.79165V10.5416H1.79165C1.40487 10.5416 1.03394 10.6953 0.760449 10.9688C0.486959 11.2423 0.333313 11.6132 0.333313 12C0.333313 12.3868 0.486959 12.7577 0.760449 13.0312C1.03394 13.3047 1.40487 13.4583 1.79165 13.4583H10.5416V22.2083C10.5416 22.5951 10.6953 22.966 10.9688 23.2395C11.2423 23.513 11.6132 23.6666 12 23.6666C12.3868 23.6666 12.7577 23.513 13.0312 23.2395C13.3047 22.966 13.4583 22.5951 13.4583 22.2083V13.4583H22.2083C22.5951 13.4583 22.966 13.3047 23.2395 13.0312C23.513 12.7577 23.6666 12.3868 23.6666 12C23.6666 11.6132 23.513 11.2423 23.2395 10.9688C22.966 10.6953 22.5951 10.5416 22.2083 10.5416Z" fill="#B5B9C2"/>
+                    </svg></div>
+                </button>
+                <div class="questions__accordion_content">
+                    <p>Processing a sale is the main purpose of the Simple Sale module in DEAR. Through the Simple Sale module, you can create quotes, sale orders, sale invoices and track the shipping status of the sale order.</p>
+                </div>
+                <button class="questions__accordion">Can I sell items that are out of stock?
+                    <div><svg class="questions__x" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M22.2083 10.5416H13.4583V1.79165C13.4583 1.40487 13.3047 1.03394 13.0312 0.760449C12.7577 0.486959 12.3868 0.333313 12 0.333313C11.6132 0.333313 11.2423 0.486959 10.9688 0.760449C10.6953 1.03394 10.5416 1.40487 10.5416 1.79165V10.5416H1.79165C1.40487 10.5416 1.03394 10.6953 0.760449 10.9688C0.486959 11.2423 0.333313 11.6132 0.333313 12C0.333313 12.3868 0.486959 12.7577 0.760449 13.0312C1.03394 13.3047 1.40487 13.4583 1.79165 13.4583H10.5416V22.2083C10.5416 22.5951 10.6953 22.966 10.9688 23.2395C11.2423 23.513 11.6132 23.6666 12 23.6666C12.3868 23.6666 12.7577 23.513 13.0312 23.2395C13.3047 22.966 13.4583 22.5951 13.4583 22.2083V13.4583H22.2083C22.5951 13.4583 22.966 13.3047 23.2395 13.0312C23.513 12.7577 23.6666 12.3868 23.6666 12C23.6666 11.6132 23.513 11.2423 23.2395 10.9688C22.966 10.6953 22.5951 10.5416 22.2083 10.5416Z" fill="#B5B9C2"/>
+                    </svg></div>
+                </button>
+                <div class="questions__accordion_content">
+                    <p>Processing a sale is the main purpose of the Simple Sale module in DEAR. Through the Simple Sale module, you can create quotes, sale orders, sale invoices and track the shipping status of the sale order.</p>
+                </div>
+                <button class="questions__accordion">What is the difference between backorder and split order?
+                    <div><svg class="questions__x" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M22.2083 10.5416H13.4583V1.79165C13.4583 1.40487 13.3047 1.03394 13.0312 0.760449C12.7577 0.486959 12.3868 0.333313 12 0.333313C11.6132 0.333313 11.2423 0.486959 10.9688 0.760449C10.6953 1.03394 10.5416 1.40487 10.5416 1.79165V10.5416H1.79165C1.40487 10.5416 1.03394 10.6953 0.760449 10.9688C0.486959 11.2423 0.333313 11.6132 0.333313 12C0.333313 12.3868 0.486959 12.7577 0.760449 13.0312C1.03394 13.3047 1.40487 13.4583 1.79165 13.4583H10.5416V22.2083C10.5416 22.5951 10.6953 22.966 10.9688 23.2395C11.2423 23.513 11.6132 23.6666 12 23.6666C12.3868 23.6666 12.7577 23.513 13.0312 23.2395C13.3047 22.966 13.4583 22.5951 13.4583 22.2083V13.4583H22.2083C22.5951 13.4583 22.966 13.3047 23.2395 13.0312C23.513 12.7577 23.6666 12.3868 23.6666 12C23.6666 11.6132 23.513 11.2423 23.2395 10.9688C22.966 10.6953 22.5951 10.5416 22.2083 10.5416Z" fill="#B5B9C2"/>
+                    </svg></div>
+                </button>
+                <div class="questions__accordion_content">
+                    <p>Processing a sale is the main purpose of the Simple Sale module in DEAR. Through the Simple Sale module, you can create quotes, sale orders, sale invoices and track the shipping status of the sale order.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="features">
+            <div class="features__holder">
+                <div class="features__holder_one">
+                    <div class="features__holder_top">
+                        <h2>All Features Included.</h2>
+                        <p>Don’t let tech logistics limit your growth. Evolve, manage, analyze and automate every aspect of your business with a centralized online platform and enterprise-level tools.</p>
+                    </div>
+                    <div class="features__holder_down">
+                        <a href="#">Start Free 14 Days Trial</a>
+                    </div>
+                </div>
+                <div class="features__holder_two">
+                    <img src="dist/images/Group 899.png" alt="screen">
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer__holder">
+            <div class="footer__top">
+                <div class="footer__one">
+                    <div class="footer__logoList">
+                        <div class="footer__logo">
+                            <a href="/">
+                                <img src="/dist/images/footer_logo.svg" alt="logo">
+                            </a>
+                        </div>
+                        <div class="footer__dearMenu">
+                            <div class="footer__dearMenu_item">
+                                <a href="#">Get Support</a>
+                            </div>
+                            <div class="footer__dearMenu_item">
+                                <a href="#">Knowledgebase</a>
+                            </div>
+                            <div class="footer__dearMenu_item">
+                                <a href="#">Find a Partner</a>
+                            </div>
+                            <div class="footer__dearMenu_item">
+                                <a href="#">Become a partner</a>
+                            </div>
+                            <div class="footer__dearMenu_item">
+                                <a href="#">Forum</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="footer__recources">
+                        <h5>Resources</h5>
+                        <a href="#">Blog</a>
+                        <a href="#">Customer Stories</a>
+                        <a href="#">Release Notes</a>
+                        <a href="#">Development Roadmap</a>
+                    </div>
+                </div>
+
+                    <form>
+                        <button type="submit">
+                            <img src="dist/images/Search_footer.svg" alt="">
+                        </button>
+                        <input type="text" placeholder="Search">
+                    </form>
+                    <div class="footer__consultationButton">
+                        <a href="#">Get A Consultation</a>
+                    </div>
+            </div>
+
+            <div class="footer__down">
+                <div class="footer__solutions">
+                    <h5>Solutions</h5>
+                        <a href="#">Accounting</a>
+                        <a href="#">B2B Portal</a>
+                        <a href="#">eCommerce</a>
+                        <a href="#">Inventory Management</a>
+                        <a href="#">Manufacturing</a>
+                        <a href="#">Point Of Sale (POS)</a>
+                        <a href="#">Purchasing</a>
+                        <a href="#">Sales</a>
+                        <a href="#">Hardware</a>
+                </div>
+                <div class="footer__integrations">
+                    <h5>Integrations</h5>
+                        <a href="#">eCommerce Platforms</a>
+                        <a href="#">Shipping & Fulfillment</a>
+                        <a href="#">Marketpalces</a>
+                        <a href="#">Point of Sale software</a>
+                        <a href="#">B2B Software</a>
+                        <a href="#">Accounting Systems</a>
+                        <a href="#">Payment Gateways</a>
+                        <a href="#">DEAR WMS</a>
+                </div>
+                <div class="footer__about">
+                    <h5>About</h5>
+                        <a href="#">Why DEAR Systems?</a>
+                        <a href="#">GDPR</a>
+                        <a href="#">Pricing Table</a>
+                        <a href="#">Help and Support</a>
+                        <a href="#">Terms & Conditions</a>
+                        <a href="#">Privacy Policy</a>
+                        <a href="#">Login</a>
+                        <a href="#">Sign up</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer__accordion">
+            <button class="footer__accordion_Button"> Resources
+                <div><i class="footer__accordion_arrow"></i></div>
+            </button>
+            <div class="footer__accordion_content">
+                <a href="#">Blog</a>
+                <a href="#">Customer Stories</a>
+                <a href="#">Release Notes</a>
+                <a href="#">Development Roadmap</a>
+            </div>
+        
+        <button class="footer__accordion_Button"> Solutions
+                <div><i class="footer__accordion_arrow"></i></div>
+            </button>
+            <div class="footer__accordion_content">
+                <a href="#">Accounting</a>
+                <a href="#">B2B Portal</a>
+                <a href="#">eCommerce</a>
+                <a href="#">Inventory Management</a>
+                <a href="#">Manufacturing</a>
+                <a href="#">Point Of Sale (POS)</a>
+                <a href="#">Purchasing</a>
+                <a href="#">Sales</a>
+                <a href="#">Hardware</a>
+            </div>
+        
+        <button class="footer__accordion_Button"> Integrations
+                <div><i class="footer__accordion_arrow"></i></div>
+            </button>
+            <div class="footer__accordion_content">
+                <a href="#">eCommerce Platforms</a>
+                <a href="#">Shipping & Fulfillment</a>
+                <a href="#">Marketpalces</a>
+                <a href="#">Point of Sale software</a>
+                <a href="#">B2B Software</a>
+                <a href="#">Accounting Systems</a>
+                <a href="#">Payment Gateways</a>
+                <a href="#">DEAR WMS</a>
+            </div>
+        
+        <button class="footer__accordion_Button"> About
+                <div><i class="footer__accordion_arrow"></i></div>
+            </button>
+            <div class="footer__accordion_content">
+                <a href="#">Why DEAR Systems?</a>
+                <a href="#">GDPR</a>
+                <a href="#">Pricing Table</a>
+                <a href="#">Help and Support</a>
+                <a href="#">Terms & Conditions</a>
+                <a href="#">Privacy Policy</a>
+                <a href="#">Login</a>
+                <a href="#">Sign up</a>
+            </div>
+        </div>
+
+        <div class="footer__lastblock">
+            <div class="footer__copy">
+                <p>Copyright ©DEAR Systems 2020.  All rights reserved.</p>
+            </div>
+            <div class="footer__socials">
+                <div class="footer__social">
+                    <img src="dist/images/facebook.svg" alt="facebook-icon">
+                </div>
+                <div class="footer__social">
+                    <img src="dist/images/twitter.svg" alt="ftwitter-icon">
+                </div>
+                <div class="footer__social">
+                    <img src="dist/images/linkedin.svg" alt="linkedin-icon">
+                </div>
+                <div class="footer__social">
+                    <img src="dist/images/instagram.svg" alt="instagram-icon">
+                </div>
+                <div class="footer__social">
+                    <img src="dist/images/youtube.svg" alt="youtube-icon">
+                </div>
+            </div>
+        </div>
+
+        <div class="footer__copyright">
+            <p>Copyright ©DEAR Systems 2020.<br>
+                All rights reserved.</p>
+        </div>
+    </footer>
+    <script src="/src/js/index.js"></script>
+    <script src="/src/js/footer.js"></script>
+</body>
+</html>
