@@ -89,10 +89,11 @@
                 font-weight: 500;
                 font-size: 14px;
                 line-height: 17px;
-                padding: 12px 34px;
+                padding: 0 34px;
                 display: flex;
                 align-items: center;
                 margin-right: 8px;
+               box-sizing: border-box;
                 // text-align: center;
 
                 &:hover {
