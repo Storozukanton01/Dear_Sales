@@ -101,3 +101,21 @@ h5 {
 //         fill: #000;
 //     }
 // }
+
+.container {
+    width: 100%;
+    max-width: 1410px;
+    margin: 0 auto;
+}
+
+.active {
+    background: #F1F6FB;
+}
+
+.button_acc .active {
+    background: #F1F6FB;;
+}
+
+input[type="text"] {
+    color: #fff;
+}

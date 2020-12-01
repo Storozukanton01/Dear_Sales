@@ -13,7 +13,7 @@
             flex-direction: column;
         }
 
-        &_item {
+        li {
             height: 50%;
             width: 50%;
             margin-bottom: 24px;
@@ -198,22 +198,39 @@
 
         @media screen and (min-width: 1024px) {
             margin-right: 50px;
+            border-bottom: none;
+        }
+
+        li {
+            a {
+                border-radius: 100%;
+                background: rgb(119, 118, 118);
+
+                @media screen and (min-width: 1024px) {
+                    margin-right: 30px;
+                    justify-content: space-around;
+                }
+
+                img {
+                    padding: 10px;
+                }
+            }
         }
     }
 
-    &__social {
-        border-radius: 100%;
-        background: rgb(119, 118, 118);
+    // &__social {
+    //     border-radius: 100%;
+    //     background: rgb(119, 118, 118);
 
-        @media screen and (min-width: 1024px) {
-            margin-right: 30px;
-            justify-content: space-around;
-        }
+    //     @media screen and (min-width: 1024px) {
+    //         margin-right: 30px;
+    //         justify-content: space-around;
+    //     }
 
-        img {
-            padding: 10px;
-        }
-    }
+    //     img {
+    //         padding: 10px;
+    //     }
+    // }
 
     &__copyright {
         display: block;
@@ -273,13 +290,20 @@
             margin-bottom: 30px;
         }
 
-        a {
-            font-weight: 500;
-            font-size: 16px;
-            line-height: 19px;
-            color: #FFFFFF;
-            margin-bottom: 24px;
-            opacity: 0.8;
+        ul {
+            display: flex;
+            flex-direction: column;
+
+            li { 
+                a {
+                font-weight: 500;
+                font-size: 16px;
+                line-height: 19px;
+                color: #FFFFFF;
+                margin-bottom: 24px;
+                opacity: 0.8;
+                }
+            }
         }
     }
 
@@ -308,13 +332,20 @@
                 margin-bottom: 30px;
             }
     
-            a {
-                font-weight: 500;
-                font-size: 16px;
-                line-height: 19px;
-                color: #FFFFFF;
-                margin-bottom: 24px;
-                opacity: 0.8;
+            ul {
+                display: flex;
+                flex-direction: column;
+
+                li {
+                    a {
+                        font-weight: 500;
+                        font-size: 16px;
+                        line-height: 19px;
+                        color: #FFFFFF;
+                        margin-bottom: 24px;
+                        opacity: 0.8;
+                    }
+                }
             }
         }
     }
